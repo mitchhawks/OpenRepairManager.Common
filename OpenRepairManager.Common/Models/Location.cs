@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace OpenRepairManager.Common.Models
 {
@@ -27,7 +28,8 @@ namespace OpenRepairManager.Common.Models
         public string LocationPostCode { get; set; }
 
         public string GMapsPlaceId { get; set; }
-
+        
+        [JsonIgnore]
         public List<Session>? Sessions { get; set; }
     }
 }
