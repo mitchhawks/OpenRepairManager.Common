@@ -6,6 +6,12 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <Version>1.0.1</Version>
+        <Title>OpenRepairManage.Common</Title>
+        <Authors>Mitch Hawks</Authors>
+        <Description>Common Models for Open Repair Manager</Description>
+        <PackageProjectUrl>https://github.com/mitchhawks/OpenRepairManager.Common/tree/main</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/mitchhawks/OpenRepairManager.Common/blob/main/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/mitchhawks/OpenRepairManager.Common/tree/main</RepositoryUrl>
     </PropertyGroup>
 
 
@@ -14,7 +20,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="9.0.0"/>
+        <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="9.0.3" />
     </ItemGroup>
 
     <ItemGroup>
